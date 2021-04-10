@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 
-<html lang="da" xmlns:th="http://www.thymeleaf.org">
+<html lang="da">
 <!-- inside of the html tag is where all your html will go -->
 <head>
     <!-- This is where you put meta information about the page: favicon, title, social media tags etc -->
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
 
 
     <meta charset="utf-8">
@@ -36,7 +36,7 @@
         <div class="headline">
         <h1>Welcome to my portfolio</h1>
         </div>
-        <img class="profilepic" src="../static/images/profilepic.jpg" alt="Profile picture" width="200" height="200"
+        <img class="profilepic" src="profilepic.jpg" alt="Profile picture" width="200" height="200"
              th:src="@{images/profilepic.jpg}">
         <article><h3>About me:</h3>
         <div>My name is Jacob, I am 27 years old and I am currently studying on my 2nd semester of Data Science at KEA.</div>
